@@ -9,7 +9,8 @@ app = Flask(__name__)
 
 
 passw = quote_plus("Vegas@1999")
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:{}@localhost:5432/projetpython'.format(passw)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ziscptbvnbjnxu:1c62b97ab9e5a6a4ed238414dd8301e7fc043bf4e4ece341ddc50b1182da56dc@ec2-54-83-21-198.compute-1.amazonaws.com:5432/dend0c4cdo6te2'
+
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
