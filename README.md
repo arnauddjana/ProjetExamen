@@ -43,3 +43,7 @@ La définition de la variable sur détectera les modifications de fichiers et re
 Définition de la variable sur dirige flask pour utiliser le répertoire et le fichier pour trouver l’application.FLASK_APPflaskrflaskr__init__.py
 
 
+Dabord le projet consite à crer un api qui permetra de gerer une biblioteque,donc nous avons possede comme suis
+
+
+
